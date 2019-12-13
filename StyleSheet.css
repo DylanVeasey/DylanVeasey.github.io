@@ -20,6 +20,10 @@ body {
 	align-items:center;
 	justify-content: center;
 }
+#nav{
+	position:fixed;
+	width: 100%;
+}
 #footer {
   position: fixed;
   left: 0;
@@ -61,7 +65,23 @@ body {
 	background: #4183C4;
 	color: white;
 }
-
-
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
 
 
