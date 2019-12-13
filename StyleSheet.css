@@ -31,7 +31,9 @@ body {
   text-align: center;
   height: 40px;
 }
-
+#email{
+	opacity:0.7;
+}
 .fa {
   padding: 20px;
   font-size: 30px;
