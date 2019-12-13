@@ -1,5 +1,9 @@
+html {
+  height: 100%;
+}
 body {
     background: #F46E5F;
+    height: 100%;
 }
 .vertical-center{
 	min-height: 100%;
@@ -15,6 +19,17 @@ body {
 	display: flex;
 	align-items:center;
 	justify-content: center;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bcffff;
+  line-height: 40px;
+  color: black;
+  text-align: center;
+  height: 40px;
 }
 
 .fa {
