@@ -39,7 +39,7 @@ body {
 	opacity:0.7;
 }
 .fa {
-  padding: 20px;
+  padding: 25px;
   font-size: 30px;
   width: 90px;
   text-align: center;
@@ -58,11 +58,19 @@ body {
   color: white;
 }
 .fa-instagram {
-  background: #125688;
+  background: rgb(85,90,205);
   color: white;
 }
 .fa-github{
-	background: #4183C4;
+	background: rgb(27,31,35);
+	color: white;
+}
+.fa-tumblr{
+	background: rgb(42,68,95);
+	color: white;
+}
+.fa-stack-overflow{
+	background: rgb(244,128,36);
 	color: white;
 }
 .fa-1x {
