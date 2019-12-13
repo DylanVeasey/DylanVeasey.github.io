@@ -9,6 +9,7 @@ body {
 }
 .horizontal-center{
 	margin:auto;
+	width: 50%;
 }
 
 .fa {
