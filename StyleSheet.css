@@ -6,10 +6,16 @@ body {
 	min-height: 100vh;
 	display:flex;
 	align-items:center;
+	justify-content: center;
 }
 .horizontal-center{
 	margin:auto;
-	width:25%;
+}
+#link{
+	margin-left:10%;
+}
+.col-sm-2{
+	border:3px solid red;
 }
 
 .fa {
