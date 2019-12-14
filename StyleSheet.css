@@ -23,6 +23,11 @@ body {
 #nav{
 	position:fixed;
 	width: 100%;
+	z-index: 1;
+}
+#projectCard{
+	position:static;
+	z-index: -1;
 }
 #footer {
   position: fixed;
