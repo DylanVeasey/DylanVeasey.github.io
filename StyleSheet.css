@@ -34,7 +34,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #85FFBF;
+  background-color: white;
   line-height: 40px;
   color: black;
   text-align: center;
@@ -96,5 +96,12 @@ color: #ff6f00;
 .dark-teal-text {
 color: #004d40;
 }
-
+#info{
+	background-color: white;
+	padding:1px;
+	border-radius:15px;
+	style="position:relative; right:5px;
+	margin-top: 1px;
+	border: 5px solid  #F46E5F;
+}
 
