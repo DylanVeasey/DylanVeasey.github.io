@@ -35,10 +35,10 @@ body {
   bottom: 0;
   width: 100%;
   background-color: white;
-  line-height: 40px;
+  line-height: 56px;
   color: black;
   text-align: center;
-  height: 40px;
+  height: 56px;
 }
 #email{
 	opacity:0.7;
