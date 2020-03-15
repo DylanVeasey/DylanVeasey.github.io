@@ -5,8 +5,9 @@
     <title>Home Page</title>
 
 
-    
-	<link rel="stylesheet" id="divi-style-css" href="StyleSheet2.css" type="text/css" media="all">
+	<!--main stylesheets-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" id="et-core-unified-2-cached-inline-styles" href="StyleSheet.css">
 	<!--Link for font-->
     <link rel="stylesheet" id="et-builder-googlefonts-cached-css" href="https://fonts.googleapis.com/css?family=Passion+One%3Aregular%2C700%2C900%7CFira+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.3.2#038;subset=latin,latin-ext" type="text/css" media="all">
     
@@ -20,9 +21,6 @@
 
     <!--Icon in top-->
     <link rel="icon" href="#" sizes="192x192">
-    
-    <!--main stylesheet-->
-    <link rel="stylesheet" id="et-core-unified-2-cached-inline-styles" href="StyleSheet.css">
 </head>
     <body class="home page-template-default page page-id-2 page-parent custom-background locale-en-gb et_button_no_icon et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter windows et_pb_gutters1 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css chrome">
 	    <div id="page-container" class="et-animated-content" style="padding-top: 79px; margin-top: -1px;">
@@ -34,10 +32,10 @@
 					<div id="et-top-navigation" data-height="60" data-fixed-height="38" style="padding-left: 221px;">
 						<nav id="top-menu-nav">
 						<ul id="top-menu" class="nav">
-                            <li id="" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-785"><a href="#" aria-current="page">Home</a></li>
-                            <li id="" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="#">Link 1</a></li>
-                            <li id="" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="#">Link 2</a></li>
-                            <li id="" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="#">Link 3</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-785"><a href="#" aria-current="page">Home</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="#">Link 1</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="#">Link 2</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="#">Link 3</a></li>
                         </ul>						
                         </nav>	
 					    <div id="et_mobile_nav_menu">
@@ -59,7 +57,7 @@
 	        <div id="main-content">
 				<article>
 					<!--First section-->
-		            <div class="et_pb_section et_pb_section_0 fullscreen-section et_pb_section_parallax et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
+		            <div class="col et_pb_section et_pb_section_0 fullscreen-section et_pb_section_parallax et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
 						<!--Top svg for the header-->
 						<div class="et_pb_top_inside_divider"></div>
 						<!--Main background image-->
@@ -69,7 +67,7 @@
 						<!--Main Header-->
 						<div class="et_pb_row et_pb_row_0">
 							<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
-								<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_0 shadow heading-rect  et_pb_text_align_left et_pb_bg_layout_light">
+								<div class="et_pb_with_border et_pb_module et_pb_text Text_0 shadow heading-rect  et_pb_text_align_left et_pb_bg_layout_light">
 									<div class="">
 										<h1><span style="color: #eeeeee;">Heading</span></h1>
 										<h2><span style="color: #eeeeee;">This is a subheading<br></span></h2>
@@ -81,9 +79,9 @@
 						<div class="FirstDivider_top"></div>
 					</div>
 					
-					<div class="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular">
+					<div class="et_pb_section Div_Words">
 						<div class="et_pb_row et_pb_row_1">					
-							<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+							<div class="et_pb_module et_pb_text Text_1">
 								<div><h2>Words!</h2></div>
 							</div> 
 						</div> 
@@ -93,7 +91,7 @@
 							<!--Second heading-->
 							<div class="et_pb_row et_pb_row_3">
 								<div class="et_pb_column et_pb_column_4_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
-									<div class="et_pb_module et_pb_text et_pb_text_2 shadow heading-rect  et_pb_text_align_center et_pb_bg_layout_dark">
+									<div class="et_pb_module et_pb_text Text_2 shadow heading-rect  et_pb_text_align_center et_pb_bg_layout_dark">
 										<div><h2>This is a heading 2.</h2><p>This is a paragraph.</p></div>
 									</div> 
 									<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -104,7 +102,7 @@
 							<!--This is the two links and the paragraph-->
 							<div class="et_pb_row et_pb_row_4">
 								<div class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
-									<div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_dark">
+									<div class="et_pb_module et_pb_text Text_3  et_pb_text_align_left et_pb_bg_layout_dark">
 										<div><p>This is a paragraph</p></div>
 									</div> 
 									<div class="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -115,7 +113,7 @@
 							<div class="et_pb_row et_pb_row_5">
 								<!--Third heading-->
 								<div class="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
-									<div class="et_pb_module et_pb_text et_pb_text_4 shadow heading-rect  et_pb_text_align_center et_pb_bg_layout_dark">
+									<div class="et_pb_module et_pb_text text_4 shadow heading-rect  et_pb_text_align_center et_pb_bg_layout_dark">
 										<div class=""><h2>This is a subheading?</h2></div>
 									</div> 
 									<!--Bottom paragraph and link-->
@@ -133,53 +131,31 @@
 						<div class="et_pb_section et_pb_section_7 et_pb_with_background et_section_regular">
 							<div class="et_pb_row et_pb_row_14">
 								<div class="et_pb_column et_pb_column_1_3 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough">
-									<div class="et_pb_module et_pb_blurb et_pb_blurb_0 social-media-blurb et_hover_enabled et_clickable  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
-										<div class="et_pb_blurb_content">
-											<div class="et_pb_main_blurb_image">
-												<span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et-pb-icon"></span></span>
-											</div>
-											<div class="et_pb_blurb_container">
-												<h4 class="et_pb_module_header"><span>Email</span></h4>
-											</div>
-										</div>
-									</div>
 									<div class="et_pb_module et_pb_blurb et_pb_blurb_1 social-media-blurb et_hover_enabled et_clickable  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
 										<div class="et_pb_blurb_content">
-											<div class="et_pb_main_blurb_image">
-												<span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et-pb-icon"></span></span>
-											</div>
 											<div class="et_pb_blurb_container">
-												<h4 class="et_pb_module_header"><span>Discord</span></h4>
+												<h4 class="et_pb_module_header"><a href="https://github.com/DylanVeasey">GitHub</a></h4>
 											</div>
 										</div> 
 									</div>
 									<div class="et_pb_module et_pb_blurb et_pb_blurb_2 social-media-blurb et_hover_enabled et_clickable  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
 										<div class="et_pb_blurb_content">
-											<div class="et_pb_main_blurb_image">
-												<span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et-pb-icon"></span></span>
-											</div>
 											<div class="et_pb_blurb_container">
-												<h4 class="et_pb_module_header"><span>Twitter</span></h4>
+												<h4 class="et_pb_module_header"><a href="https://twitter.com/DylanVeasey">Twitter</a></h4>
 											</div>
 										</div> 
 									</div>
 									<div class="et_pb_module et_pb_blurb et_pb_blurb_3 social-media-blurb et_hover_enabled et_clickable  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
 										<div class="et_pb_blurb_content">
-											<div class="et_pb_main_blurb_image">
-												<span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et-pb-icon"></span></span>
-											</div>
 											<div class="et_pb_blurb_container">
-												<h4 class="et_pb_module_header"><span>Facebook</span></h4>
+												<h4 class="et_pb_module_header"><a href="https://www.facebook.com/dylan.veasey.98">Facebook</a></h4>
 											</div>
 										</div> 
 									</div>
 									<div class="et_pb_module et_pb_blurb et_pb_blurb_4 social-media-blurb et_hover_enabled et_clickable  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
 										<div class="et_pb_blurb_content">
-											<div class="et_pb_main_blurb_image">
-												<span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et-pb-icon"></span></span>
-											</div>
 											<div class="et_pb_blurb_container">
-												<h4 class="et_pb_module_header"><span>Instagram</span></h4>
+												<h4 class="et_pb_module_header"><a href="https://www.instagram.com/dylanveasey/">Instagram</a></h4>
 											</div>
 										</div> 
 									</div> 
@@ -195,5 +171,9 @@
 <script type="text/javascript" src="https://www.earth-strike.com/wp-content/themes/Divi/js/custom.min.js?ver=4.1"></script>
 <script type="text/javascript" src="https://www.earth-strike.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.1"></script>
 <script type="text/javascript" src="https://www.earth-strike.com/wp-includes/js/wp-embed.min.js?ver=5.3.2"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
