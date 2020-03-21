@@ -52,6 +52,19 @@ body{
   max-width: 65%;
   min-width: 50%;
 }
+.nav-link{
+  color: white!important;
+}
+.nav-link.active{
+  color: #F46E5F!important;
+}
+.nav-link:hover{
+  color:#F46E5F!important;
+  opacity: 0.9;
+}
+.nav-link.active:hover{
+  color: #ad3f32!important;
+}
 .et_pb_top_inside_divider
 {
   background-image:url("download.svg");
@@ -121,7 +134,7 @@ body{
   text-decoration: none;
 }
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.95;
 }
 .fa-facebook {
   background: #3B5998;
