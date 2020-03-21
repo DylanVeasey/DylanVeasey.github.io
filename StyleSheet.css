@@ -25,6 +25,19 @@ body{
   left: 0;
   z-index: -1;
 }
+.parallax {
+  /* The image used */
+  background-image: url("BI.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .secondary_header{
   background-color: #F46E5F;
   text-align: center;
@@ -151,18 +164,6 @@ font-size: 2.5rem;
   justify-content: center;
   height: 100%;
 }
-.parallax {
-  /* The image used */
-  background-image: url("BI.jpg");
 
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
