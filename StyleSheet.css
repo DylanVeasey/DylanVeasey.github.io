@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 body{
   width: 100%;
   height: 100vh;
@@ -8,7 +11,11 @@ body{
   letter-spacing: 4px;
   background-color: black;
 }
-
+.container{
+  padding: 0px!important;
+  margin: 0px!important;
+  max-width: 100%!important;
+}
 .et_parallax_bg_wrap {
   overflow: hidden;
   position: absolute;
@@ -17,17 +24,6 @@ body{
   bottom: 0;
   left: 0;
   z-index: -1;
-}
-.et_parallax_bg {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
 }
 .secondary_header{
   background-color: #F46E5F;
@@ -147,6 +143,7 @@ font-size: 2.5rem;
 .content_column{
   height: 80%!important;
   position: relative;
+  padding: 0px!important;
 }
 #links{
 	display: flex;
@@ -154,6 +151,18 @@ font-size: 2.5rem;
   justify-content: center;
   height: 100%;
 }
+.parallax {
+  /* The image used */
+  background-image: url("BI.jpg");
 
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
