@@ -39,14 +39,20 @@ body{
   background-size: cover;
 }
 .secondary_header{
+  font-size: 80px;
   background-color: #F46E5F;
   text-align: center;
   margin: auto;
   font-weight: 600;
   letter-spacing: 2px;
   font-family: 'Passion One',display;
+  color: white!important;
   max-width: 65%;
   min-width: 50%;
+  min-height: 20%;
+  border: 1px solid #F46E5F;
+  padding: 10px;
+  box-shadow: 5px 10px black;
 }
 #secondary_header{
   max-width: 65%;
