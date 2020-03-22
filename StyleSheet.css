@@ -19,6 +19,36 @@ body{
 .navbar-nav{
   transition: ease 0.2s;
 }
+.nav-link{
+  color: white!important;
+}
+.nav-link.active{
+  color: #F46E5F!important;
+}
+.nav-link:hover{
+  color:#F46E5F!important;
+  opacity: 0.9;
+}
+.nav-link.active:hover{
+  color: #ad3f32!important;
+}
+#nav{
+  background-color: black!important;
+  color: white!important;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+}
+.navbar{
+  color: white!important;
+  align-items: center;
+  font-family: 'Passion One',display;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 35px;   
+}
 .et_parallax_bg_wrap {
   overflow: hidden;
   position: absolute;
@@ -73,19 +103,6 @@ body{
   max-width: 65%;
   min-width: 50%;
 }
-.nav-link{
-  color: white!important;
-}
-.nav-link.active{
-  color: #F46E5F!important;
-}
-.nav-link:hover{
-  color:#F46E5F!important;
-  opacity: 0.9;
-}
-.nav-link.active:hover{
-  color: #ad3f32!important;
-}
 .et_pb_top_inside_divider
 {
   background-image:url("download.svg");
@@ -96,23 +113,6 @@ body{
   transform:rotateX(180deg);
   background-color:transparent;
   position: relative;
-}
-#nav{
-  background-color: black!important;
-  color: white!important;
-  text-align: center;
-  align-items: center;
-  margin: auto;
-  position: fixed;
-  width: 100%;
-}
-.navbar{
-  color: white!important;
-  align-items: center;
-  font-family: 'Passion One',display;
-  font-weight: 600;
-  letter-spacing: 4px;
-  font-size: 35px;   
 }
 .FirstSection{
   color: white;
