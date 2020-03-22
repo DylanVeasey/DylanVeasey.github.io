@@ -16,6 +16,9 @@ body{
   margin: 0px!important;
   max-width: 100%!important;
 }
+.navbar-nav{
+  transition: ease 0.2s;
+}
 .et_parallax_bg_wrap {
   overflow: hidden;
   position: absolute;
@@ -28,6 +31,19 @@ body{
 .parallax {
   /* The image used */
   background-image: url("BI.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("test.jpg");
 
   /* Full height */
   height: 100%;
@@ -51,7 +67,7 @@ body{
   min-height: 20%;
   border: 1px solid #F46E5F;
   padding: 10px;
-  box-shadow: 5px 10px black;
+  box-shadow: 5px 10px rgba(0,0,0,0.8);
 }
 #secondary_header{
   max-width: 65%;
@@ -74,11 +90,12 @@ body{
 {
   background-image:url("download.svg");
   background-size:100% 100px;
-  top:0;
+  top:5%;
   height:100px;
   z-index:1;
   transform:rotateX(180deg);
-  background-color:transparent
+  background-color:transparent;
+  position: relative;
 }
 #nav{
   background-color: black!important;
@@ -86,6 +103,8 @@ body{
   text-align: center;
   align-items: center;
   margin: auto;
+  position: fixed;
+  width: 100%;
 }
 .navbar{
   color: white!important;
@@ -181,6 +200,16 @@ font-size: 2.5rem;
 	align-items:center;
   justify-content: center;
   height: 100%;
+}
+.testp1{
+  margin-top: 100% ;
+  background-color: #F46E5F;
+}
+.test1{
+  font-size: 100%!important;
+}
+.test2{
+  font-size: 65%!important;
 }
 
 
