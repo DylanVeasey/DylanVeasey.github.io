@@ -124,6 +124,14 @@ button{
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media  screen and (max-width: 425px){
+  .parallax{
+    background-image: url("BISmall.jpg");
+  }
+  .parallax2{
+    background-image: url("BISmall.jpg");
+  }
+}
 .container{
   min-width: 100%;
   margin: 0;
