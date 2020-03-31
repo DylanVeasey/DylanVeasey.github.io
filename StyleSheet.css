@@ -34,6 +34,7 @@ button{
 }
 .nav-link.active:hover{
   color: #FFA399!important;
+
 }
 #nav{
 	position:fixed;
@@ -153,7 +154,7 @@ button{
   -ms-transform: translateY(-40%);
   transform: translateY(-40%);
 }
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1440px){
   .icon-bar{
     display: none;
   }
@@ -277,7 +278,7 @@ button{
 .openbtn:hover {
   background-color: #444;
 }
-@media screen and (min-width:1450px){
+@media screen and (min-width:1441px){
   #main{
     display: none!important;
   }
